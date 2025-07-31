@@ -1,0 +1,245 @@
+/* Base scroll animation styles */
+.scroll-animation {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.scroll-animation.animate {
+  opacity: 1;
+}
+
+/* Reverse animation when scrolling up */
+.scroll-animation.reverse {
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+/* Fade In Up Animation */
+.fadeInUp {
+  transform: translateY(60px);
+}
+
+.fadeInUp.animate {
+  transform: translateY(0);
+}
+
+.fadeInUp.reverse {
+  transform: translateY(-60px);
+  opacity: 0;
+}
+
+/* Fade In Down Animation */
+.fadeInDown {
+  transform: translateY(-60px);
+}
+
+.fadeInDown.animate {
+  transform: translateY(0);
+}
+
+.fadeInDown.reverse {
+  transform: translateY(60px);
+  opacity: 0;
+}
+
+/* Fade In Left Animation */
+.fadeInLeft {
+  transform: translateX(-60px);
+}
+
+.fadeInLeft.animate {
+  transform: translateX(0);
+}
+
+.fadeInLeft.reverse {
+  transform: translateX(60px);
+  opacity: 0;
+}
+
+/* Fade In Right Animation */
+.fadeInRight {
+  transform: translateX(60px);
+}
+
+.fadeInRight.animate {
+  transform: translateX(0);
+}
+
+.fadeInRight.reverse {
+  transform: translateX(-60px);
+  opacity: 0;
+}
+
+/* Scale In Animation */
+.scaleIn {
+  transform: scale(0.8);
+}
+
+.scaleIn.animate {
+  transform: scale(1);
+}
+
+.scaleIn.reverse {
+  transform: scale(0.3);
+  opacity: 0;
+}
+
+/* Zoom In Animation */
+.zoomIn {
+  transform: scale(0.5);
+}
+
+.zoomIn.animate {
+  transform: scale(1);
+}
+
+.zoomIn.reverse {
+  transform: scale(0.2);
+  opacity: 0;
+}
+
+/* Slide In Up Animation */
+.slideInUp {
+  transform: translateY(100px);
+}
+
+.slideInUp.animate {
+  transform: translateY(0);
+}
+
+.slideInUp.reverse {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+/* Slide In Down Animation */
+.slideInDown {
+  transform: translateY(-100px);
+}
+
+.slideInDown.animate {
+  transform: translateY(0);
+}
+
+.slideInDown.reverse {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+/* Rotate In Animation */
+.rotateIn {
+  transform: rotate(-180deg) scale(0.8);
+}
+
+.rotateIn.animate {
+  transform: rotate(0deg) scale(1);
+}
+
+.rotateIn.reverse {
+  transform: rotate(180deg) scale(0.3);
+  opacity: 0;
+}
+
+/* Flip In X Animation */
+.flipInX {
+  transform: perspective(400px) rotateX(-90deg);
+}
+
+.flipInX.animate {
+  transform: perspective(400px) rotateX(0deg);
+}
+
+/* Bounce In Animation */
+.bounceIn {
+  transform: scale(0.3);
+  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.bounceIn.animate {
+  transform: scale(1);
+  animation: bounceInKeyframes 0.75s ease-out;
+}
+
+@keyframes bounceInKeyframes {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Elastic In Animation */
+.elasticIn {
+  transform: scale(0);
+}
+
+.elasticIn.animate {
+  animation: elasticInKeyframes 0.6s ease-out;
+}
+
+@keyframes elasticInKeyframes {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  55% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Stagger Animation for multiple elements */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
+/* Responsive adjustments */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-animation {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-animation {
+    animation-duration: 0.5s !important;
+  }
+  
+  .fadeInUp, .slideInUp {
+    transform: translateY(30px);
+  }
+  
+  .fadeInDown, .slideInDown {
+    transform: translateY(-30px);
+  }
+  
+  .fadeInLeft {
+    transform: translateX(-30px);
+  }
+  
+  .fadeInRight {
+    transform: translateX(30px);
+  }
+}

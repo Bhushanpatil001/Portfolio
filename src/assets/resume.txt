@@ -1,0 +1,47 @@
+Bhushan Patil
++91-8329143496 | bhushanpatil0117@gmail.com | Github | linkedin.com/in/bhushanpatil017
+
+PROFILE
+Junior MERN Stack Engineer with 9+ months of experience in building scalable full-stack web applications using MongoDB,
+Express.js, React.js, and Node.js. Proficient in RESTful APIs, Next.js, Tailwind CSS, and Agile collaboration.
+
+EDUCATION
+Bhagwan Mahavir University Surat, India
+Bachelor of Computer Applications – 8.5+ CGPA 2022 – 2025
+• Among the top 3% of the batch
+• Relevant coursework in Computer Fundamental, Web Development,
+  Databases and Software Engineering Subjects.
+
+SKILLS
+Technical: HTML, CSS3, JavaScript, React JS, Next JS, Node JS, MongoDB, Restful API’s, WebSocket, WebRTC, SQL.
+Tools: GitHub, Cloudinary, JWT, VS Code, Postman
+Deployment: VPS, Nginx
+
+EXPERIENCE
+AlgoScript Software Pvt. Ltd. Surat, India
+Junior MERN Stack Developer Oct 2024 – Present
+• Built scalable MERN stack apps, boosting user engagement by 20% with optimized features.
+• Created secure RESTful APIs using JWT and bcrypt for robust authentication and smooth data flow.
+• Built reusable React components, integrated backend services, and managed state.
+• Worked with UI/UX teams to build mobile-first responsive designs using Tailwind CSS and Bootstrap.
+• Used MongoDB Atlas and Mongoose to build dynamic features like filtering and pagination.
+• Contributed to Agile sprints, code reviews, and client demos with a 90% on-time delivery rate.
+
+PROJECTS
+Domain HQ 01/25 – Present
+• Developed the frontend of a blog admin dashboard using Next.js, JavaScript, Tailwind CSS, and Prisma.
+• Implemented dynamic article rendering based on assigned domains, enhancing personalized content delivery.
+• Built CMS features with CRUD, authentication, and integrated RESTful APIs to improve management efficiency by 25%.
+
+Video Calling Web App 11/24 – 12/24
+• Built a WebRTC video calling app with Socket.IO, auto-reconnect, and secure peer-to-peer communication.
+• Deployed on Render (free tier) with basic UI using Node.js, Express, HTML, CSS, and JavaScript; handled moderate
+  user interactions with limited resources.
+
+BookMyService – A Service Booking System 02/25 – Present
+• Developed a full-stack service booking platform connecting users and providers with role-based access, real-time
+  bookings, and OTP-verified service completion.
+• Used React.js (Vite), Tailwind CSS, Context API, Stripe integration on the frontend; Node.js, Express.js, MongoDB, and
+  JWT for the backend.
+• Enabled secure authentication, advanced search, dynamic pricing, and dashboards for users, businesses, and
+  admins—demonstrating end-to-end product design.
