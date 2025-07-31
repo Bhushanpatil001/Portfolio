@@ -14,8 +14,8 @@ import useLocalStorage from 'use-local-storage';
 
 
 function App() {
-    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+    // Set dark mode as default instead of using system preference
+    const [theme, setTheme] = useLocalStorage('theme', 'dark');
 
     const switchTheme = () => {
         const newTheme = theme === 'light' ? 'dark' : 'light';
