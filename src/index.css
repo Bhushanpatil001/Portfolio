@@ -119,6 +119,15 @@ img {
   margin: 0 auto;
 }
 
+/* Mobile container adjustments */
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: calc(100vw - 40px); /* Ensure no overflow */
+  }
+}
+
 .grid {
   display: grid;
 }

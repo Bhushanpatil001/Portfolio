@@ -3,8 +3,8 @@
     /* background: var(--container-color); */
     background: transparent;
     border-radius: var(--border-radius);
-    margin-bottom: 2rem;
-    margin-top: 4rem;
+    margin-bottom: 1rem; /* Reduced from 2rem */
+    margin-top: 2rem; /* Reduced from 4rem */
 }
 
 .skills .section__title {
@@ -115,8 +115,8 @@
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .skills {
-        margin: 1rem;
-        padding: 1.5rem;
+        margin: 1rem 0; /* Remove horizontal margin to prevent overflow */
+        padding: 1.5rem 0; /* Remove horizontal padding */
         margin-bottom: 0px;
     }
     

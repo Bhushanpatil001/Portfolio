@@ -18,6 +18,7 @@
 }
 .home__img {
   margin-bottom: 1.5rem;
+  margin-top: 2rem; /* Add margin-top for desktop */
 }
 
 .Name {
@@ -244,5 +245,9 @@
 
   .intro {
     padding: 0 1rem;
+  }
+
+  .home__img {
+    margin-top: 1rem; /* Reduce margin-top on mobile */
   }
 }
