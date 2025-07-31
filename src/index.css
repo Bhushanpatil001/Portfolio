@@ -133,8 +133,12 @@ img {
 }
 
 .section {
-  padding-top: 7rem;
   padding-bottom: 2rem;
+}
+
+/* Reduce margin-bottom of section title in resume section */
+.resume.section .section__title {
+  margin-bottom: 2rem; /* Reduced from 3.75rem to 2rem */
 }
 
 .section__title {
